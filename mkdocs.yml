@@ -15,17 +15,8 @@ theme:
   palette:
     scheme: slate
 
-plugins:
-  - social
-
 extra:
-  social:
-    - icon: fontawesome/brands/github-alt
-      link: https://github.com/james-willett
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/TheJamesWillett
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/willettjames/
+  generator: false
 
 markdown_extensions:
   - pymdownx.highlight:
