@@ -1,6 +1,7 @@
 site_name: My Docs
 theme:
   name: material
+  custom_dir: theme/
   features:
     - navigation.tabs
     - navigation.sections
@@ -14,6 +15,12 @@ theme:
   language: en
   palette:
     scheme: slate
+
+extra_css:
+  - css/styles.css
+
+extra_javascript:
+  - js/script.js
 
 extra:
   generator: false
@@ -40,7 +47,7 @@ copyright: |
 
 plugins:
   - search
-  - git-committers:
-      enabled: true
-      repository: JakeBartoletta/testingrepo
-      branch: docs
+  - git-authors
+  - git-revision-date-localized:
+      type: timeago
+      enable_creation_date: true
