@@ -13,9 +13,7 @@ theme:
     - content.code.copy
   language: en
   palette:
-    - scheme: slate 
-      primary: indigo
-      accent: indigo
+    scheme: slate
 
 plugins:
   - social
